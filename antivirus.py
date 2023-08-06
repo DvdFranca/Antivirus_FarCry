@@ -6,5 +6,5 @@ import os.path
 path = '.'
 
 for f in os.listdir(path):
-    if f.beginswith('FarCry'):
+    if f == 'FarCry.py':
         os.remove(os.path.join(path, f))
